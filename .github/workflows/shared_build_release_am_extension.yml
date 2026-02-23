@@ -48,7 +48,7 @@ jobs:
           cc: ${{ matrix.cc }}
           cxx: ${{ matrix.cxx }}
           ambuild-ref: 'master'
-          mm-ref: '1.12-dev'
+          mm-ref: 'master'
           sm-ref: 'master'
           hl2sdk-manifests-ref: 'master'
           sdks: ${{ inputs.sdks }}
