@@ -53,7 +53,7 @@ jobs:
           path: ${{ inputs.artifact-path }}
 
       - name: Build extension
-        uses: srcdslab/action-ambuild@v1
+        uses: Rushaway/action-ambuild@v1
         id: ambuild
         with:
           os: ${{ matrix.os }}
