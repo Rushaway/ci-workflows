@@ -29,7 +29,7 @@ jobs:
           - ubuntu-24.04
           - windows-2022
         sm-branch:
-          - master
+          - master-sp1
           - 1.12-dev
         include:
           - os: ubuntu-24.04
