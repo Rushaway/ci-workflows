@@ -31,7 +31,7 @@ jobs:
       matrix:
         os: ${{ fromJSON(inputs.os-list) }}
         sm-branch:
-          - master
+          - master-sp1
           - 1.12-dev
 
     name: ${{ matrix.os }} (SM ${{ matrix.sm-branch }})
